@@ -56,9 +56,9 @@ For each frame we plotted three different images to observe the difference and h
  </tbody>
 </table>
 
-Finally, a .txt file is generated, including identified objects information:
+Finally, a .txt [file](https://github.com/iulianzorila/IntrusionDetection/blob/main/data/results.txt) is generated, including identified objects information:
 * Frame number.
 * Number of identified objects.
 * Identifier, area, perimeter and label of identified object.
-
-
+<img src="https://github.com/iulianzorila/IntrusionDetection/blob/main/Txt-result.png" height="300">
+Labeling process was performed by the means of a area thresholding.
