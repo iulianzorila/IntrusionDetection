@@ -1,4 +1,8 @@
 # IntrusionDetection
+### Collaborators
+* Zorila Iulian
+* Marini Daniele
+* Tanzi Giuseppe
 
 The objective of the project is to succesfully detect the intruder within the scene using just python and opencv library.
 
