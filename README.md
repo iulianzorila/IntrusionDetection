@@ -39,4 +39,26 @@ To accomplish the detection of the intruder different techniques have been emplo
   * [Perimeter](https://docs.opencv.org/4.x/dd/d49/tutorial_py_contour_features.html)
   
 ## Results
-For each frame the we plotted three different images to observe the difference and how the final result was influenced by morphology operators:
+For each frame we plotted three different images to observe the difference and how the final result was influenced by morphology operators:
+
+<table>
+ <tbody>
+  <tr>
+   <td style="border:0">Contours</td>
+   <td>Mask</td>
+   <td>Mask after morphology operators</td>
+  </tr>
+  <tr>
+   <td style="padding:0"><img src="https://github.com/iulianzorila/IntrusionDetection/blob/main/res.gif" width="320" height="240"></td>
+   <td style="padding:0"><img src="https://github.com/iulianzorila/IntrusionDetection/blob/main/mask.gif" width="320" height="240"></td>
+   <td style="padding:0"><img src="https://github.com/iulianzorila/IntrusionDetection/blob/main/fmask.gif" width="320" height="240"></td>
+  </tr>
+ </tbody>
+</table>
+
+Finally, a .txt file is generated, including identified objects information:
+* Frame number.
+* Number of identified objects.
+* Identifier, area, perimeter and label of identified object.
+
+
